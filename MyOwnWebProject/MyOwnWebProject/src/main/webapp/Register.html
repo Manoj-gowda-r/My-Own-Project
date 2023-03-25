@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .div1{
+            width: 100%;
+            height: 100vh;
+            background-image: url(images/bg4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 0%;
+            position: fixed;
+           
+        }
+        .div11{
+            width: 400px;
+            height: 630px;
+            background: rgba(0, 0, 0, 0.445);
+            margin-left: 38%;
+            margin-top: 60px;
+            text-align: center;
+             backdrop-filter: blur(6px);
+            
+        }
+        .h1 {
+            color: yellow;
+            font-size: 80px;
+            font-family: Algerian;
+            text-shadow: 0px 2px 3px black;
+        }
+        .h2{
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 0px 3px 4px black;
+            letter-spacing: 0.7;
+            margin-left: 5px;
+        }
+        .input,.input1{
+            background-color: transparent;
+            border: none;
+            font-size: 20;
+            color: black;
+            box-shadow: 0px 1px 0px white;
+            height: 45px;
+            width: 300px;
+            margin-bottom: 15px;
+            color: yellow;
+        }
+        .input{
+            margin-top: 25px;
+        }
+        .input:focus,.input1:focus{
+            background-color: white;
+            color: black;
+            font-weight: 600;
+        }
+        button{
+            background-color: white;
+            width: 300px;
+            height: 48px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 23;
+            color: blue;
+            font-weight: 700;
+        }
+        button:hover{
+            background-color: yellow;
+            color: black;
+        }
+        .div11 p{
+            margin-top: 40px;
+            font-size: 20px;
+            font-family: calibri;
+            color: rgb(255, 255, 255);
+            font-weight: lighter;
+        }
+        .p2 a{
+            color: yellow;
+            text-decoration: none;
+        }
+        
+
+    </style>
+</head>
+<body>
+   
+   		 <div class="div1" >
+        <div class="div11">
+           <a href="./Index.html" style="text-decoration: none;">
+            <div style="display: flex;margin-left: 90px;background-color: rgba(255, 255, 255, 0.205);border-radius: 10px;width: 210px;text-align: center;padding-left:20px;height: 110px;padding-top: 10px;">
+                <h1 class="h1">MG</h1>
+                <h2  class="h2">Fitness<br> World</h2>
+                </div>
+           </a>
+           <form action="registration">"
+            <input class="input" type="text" placeholder=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name" name="name">
+            <input class="input1" type="email" placeholder=" &#x2709; &nbsp;&nbsp;&nbsp; Email address " name="email">
+            <input class="input1" type="password" placeholder=" &#128274; &nbsp;&nbsp;&nbsp;Password " name="password">
+            <input class="input1" type="tel" placeholder=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone number" name="phone">
+            <input class="input1" type="text" placeholder=" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gender" name="gender">
+            <button>Register</button>
+            </form>
+            
+            <p class="p2">Already have an account ? <a href="./Login.html">&nbsp;&nbsp;Login</a></p>
+        </div>
+
+    </div>
+   
+   
+    
+</body>
+</html>
